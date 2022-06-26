@@ -33,12 +33,12 @@ body {
 h1,h2,h3,h4,h5,h6 {
     color: var(--title-text-color);
     margin-top: 0;
-    /* margin-bottom: 0; */
+    margin-bottom: 0;
 }
 
 p,ul {
     margin-top: 0;
-    /* margin-bottom: 0; */
+    margin-bottom: 0;
 }
 
 a {
@@ -214,10 +214,6 @@ img {
     line-height: 24px;
 }
 
-.benefits-list>.text>p {
-    margin-bottom: 0;
-}
-
 .benefits-list .text {
     width: 270px;
 }
@@ -273,10 +269,6 @@ img {
     margin-left: 30px;
 }
 
-.card>p {
-    margin-bottom: 0;
-}
-
 /* портфоліо */
 
 /* btn portfolio */
@@ -300,7 +292,7 @@ img {
     /* background-color: tomato; */
 }
 
-.filter-nav .item+.item {
+.filter-nav .item +.item {
     margin-left: 8px;
 }
 
