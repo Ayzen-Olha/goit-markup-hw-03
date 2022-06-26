@@ -1,0 +1,211 @@
+:root {
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196f3;
+    --main-bg-color: #e5e5e5;
+    --minor-bg-color: #2f303a;
+    --white-color: #ffffff;
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --btn-color: #F5F4FA;
+    --bgc-team-section: #f5f4fa;
+    --color-logo-header: #000000;
+}
+
+body {
+    background-color: var(--main-bg-color) ;
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--title-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.page-header {
+    background-color: var(--white-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.logo-link {
+    color: var(--accent-text-color);
+}
+
+.studio-header {
+    color: var(--color-logo-header);
+}
+
+.studio-footer {
+    color: var(--white-color);
+}
+
+/* nav */
+
+.link-nav {
+    color: var(--title-text-color);
+}
+
+.auth-link {
+    color: var(--main-text-color);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--accent-text-color);
+}
+
+.link-nav.current {
+    color: var(--accent-text-color);
+}
+
+.auth-link:hover,
+.auth-link:focus {
+    color: var(--accent-text-color);
+}
+
+/* HERO */
+
+.hero {
+    background-color: var(--minor-bg-color);
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* btn */
+
+.button {
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+}
+
+.button-hero {
+    font-weight: bold;
+    line-height: 1.9;
+    background-color: var(--accent-text-color);
+    color: var(--white-color);
+}
+
+.filter {
+    font-weight: 500;
+    line-height: 1.6;
+    background-color: var(--btn-color);
+    color: var(--title-text-color);
+}
+
+/* main index.html */
+/* benefits */
+
+.benefits-title {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+/* activity */
+
+.activity-title,
+.team-title {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* team */
+
+.team {
+    background-color: var(--bgc-team-section);
+}
+
+.team,
+.caption {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.caption {
+    font-weight: 500;
+}
+
+/* портфоліо */
+/* btn */
+
+/* .button-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--btn-color);
+    color: var(--title-text-color);
+    cursor: pointer;
+} */
+
+.filter-nav :hover,
+.filter-nav :focus{
+    background-color: var(--accent-text-color);
+    color: var(--white-color);
+}
+
+.filter-main {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.filter-main .title {
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--minor-bg-color);
+    line-height: 1.7;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address .link {
+    color: var(--footer-color);
+}
+
+.address .link-white {
+    color: var(--white-color);
+}
+
+.address :hover,
+.address :focus {
+    color: var(--accent-text-color);
+}
+
