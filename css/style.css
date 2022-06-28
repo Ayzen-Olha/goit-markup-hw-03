@@ -2,7 +2,7 @@
     --main-text-color: #757575;
     --title-text-color: #212121;
     --accent-text-color: #2196f3;
-    --main-bg-color: #e5e5e5;
+    --main-bg-color: #ffffff;
     --minor-bg-color: #2f303a;
     --white-color: #ffffff;
     --footer-color: rgba(255, 255, 255, 0.6);
@@ -159,6 +159,8 @@ img {
 .hero {
     background-color: var(--minor-bg-color);
     letter-spacing: 0.06em;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -166,15 +168,13 @@ img {
     font-size: 44px;
     font-weight: 900;
     text-transform: uppercase;
-    width: 700px;
+    width: 696px;
+    letter-spacing: 0.06em;
+    line-height: 1.36;
+    
     margin-bottom: 30px;
-    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.container-hero {
-    padding-bottom: 200px;
 }
 
 /* btn */
@@ -200,6 +200,10 @@ img {
 
 /* main index.html */
 /* benefits */
+
+.benefits {
+    padding-bottom: 0;
+} 
 
 .benefits-title {
     font-weight: bold;
@@ -265,13 +269,27 @@ img {
 
 /* team card */
 
+.card> .text {
+    padding-bottom: 30px;
+    padding-left: 70px;
+}
+
 .team-list .card + .card {
     margin-left: 30px;
 }
 
 /* портфоліо */
 
-/* btn portfolio */
+/* btn effects */
+
+.filter-nav :hover,
+.filter-nav :focus {
+    background-color: var(--accent-text-color);
+    color: var(--white-color);
+    border-radius: 4px;
+}
+
+/* Filter section */
 
 .filter {
     font-weight: 500;
@@ -286,23 +304,12 @@ img {
 .filter-nav {
     display: flex;
     padding-left: 0;
-    padding-top: 94px;
     justify-content: center;
     margin-bottom: 50px;
-    /* background-color: tomato; */
 }
 
 .filter-nav .item +.item {
     margin-left: 8px;
-}
-
-/* btn effects */
-
-.filter-nav :hover,
-.filter-nav :focus {
-    background-color: var(--accent-text-color);
-    color: var(--white-color);
-    border-radius: 4px;
 }
 
 .filter-main {
@@ -324,9 +331,9 @@ img {
 }
 
 .filter-main .pic {
+    width: calc(100%-60px /3);
     margin-right: 30px;
     margin-bottom: 30px;
-    /* background-color: coral; */
 }
 
 .filter-main .pic:nth-child(3n) {
@@ -337,9 +344,11 @@ img {
     margin-bottom: 0;
 }
 
-.filter-main>.pic>p {
-    margin-bottom: 0;
-    padding-bottom: 20px;
+.pic> .text {
+    padding-top: 31.2px;
+    padding-bottom: 26.75px;
+    padding-left: 25.16px;
+    border: 1px solid #ECECEC;
 }
 
 
@@ -348,10 +357,11 @@ img {
 .footer {
     background-color: var(--minor-bg-color);
     line-height: 1.7;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .fotter-container {
-    padding-top: 60px;
     text-align: left;
 }
 
@@ -384,4 +394,9 @@ img {
 .address :focus {
     color: var(--accent-text-color);
 }
+
+
+
+
+
 
