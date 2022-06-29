@@ -374,7 +374,6 @@ img {
     width: 230px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
 }
 
 .address .link + .link {
